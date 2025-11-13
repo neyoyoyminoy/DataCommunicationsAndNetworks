@@ -2,7 +2,7 @@
 Brendan Nellis ujf306
 this is for my data comms and networks class project
 
-given instructions:
+from handout:
 Write a computer program that implements the Bellman-Ford algorithm and produces the
 least-cost distance vectors (from any source to any destination) for a given network. Your
 code should print the initial distance vectors and the updated distance vectors in every
