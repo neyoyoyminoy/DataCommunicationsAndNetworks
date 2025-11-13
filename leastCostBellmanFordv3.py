@@ -32,7 +32,7 @@ nodes = 7
 distance = [[0] * (nodes + 1) for _ in range (nodes + 1)] #creating a 2d matrix
 
 for i in range (1, nodes + 1):
-  for j in rnage (1, nodes + 1):
+  for j in range (1, nodes + 1):
     distance[i][j] = c[i][j] #starting with D = C
 
 def matrixPrint(matrix, title):
@@ -66,8 +66,8 @@ while True:
 
       distance[i][j] = best
 
-matrixPrint(distance, f"iteration: {iteration}") #showing updates
+  matrixPrint(distance, f"iteration: {iteration}") #showing updates
 
-if distance == oldDistance:
-  print("converged") #checking convergence
-        break #only if nothing happens
+  if distance == oldDistance:
+    print("converged") #checking convergence
+    break #only if nothing happens
