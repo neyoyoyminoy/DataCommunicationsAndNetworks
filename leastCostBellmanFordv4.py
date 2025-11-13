@@ -37,14 +37,14 @@ for i in range (1, nodes + 1):
 
 def matrixPrint(matrix, title):
   print("\n" + title)
-  print("-" + len(title))
+  print("-" * len(title))
   
   for i in range(1, nodes + 1):
     row = []
     
     for j in range(1, nodes + 1):
       value = matrix[i][j]
-      row.append("infinity" if value >= infintiy else str(value))
+      row.append("infinity" if value >= infinity else str(value))
       
     print(" ".join(f"{x:>3}" for x in row))
   print()
@@ -54,7 +54,7 @@ matrixPrint(distance, "initial distance vectors") #for the start point
 iteration = 0
 
 while True:
-  interation += 1
+  iteration += 1
   oldDistance = copy.deepcopy(distance) #for comparison
 
   for i in range(1, nodes + 1): #destination
