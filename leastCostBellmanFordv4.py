@@ -1,6 +1,7 @@
 '''
 Brendan Nellis ujf306
-this is for my data comms and networks class project
+Data Communications & Networks
+Fall 2025
 
 from handout:
 Write a computer program that implements the Bellman-Ford algorithm and produces the
